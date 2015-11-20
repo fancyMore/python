@@ -1,0 +1,30 @@
+this is the content!
+
+1.户主归类
+遍历source.xls,将户主按照相同原则进行分类，得到houseMasterList
+2.填充信息
+遍历houseMasterList,步长为3，逐一填充
+3.保存xls
+按户主姓名进行保存
+
+
+发包方编码
+
+承包方（代表）：
+
+地块编码 result-B3 source-6
+地块名称 result-B5 source-7
+合同面积 result-D5 source-15
+东至 result-B7 source-19
+西至 result-B9 source-21
+南至 result-D7 source-20
+北至 result-D9 source-22
+
+土地用途 result-B11 source-11
+土地利用类型 result-B14 source-10
+指界人 result-30-6 source-23
+
+
+1 2 0
+[0,3]
+[3,6]
