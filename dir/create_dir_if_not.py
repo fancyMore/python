@@ -15,5 +15,5 @@ except Exception as e:
 # -*Application End*-
 '''
 @usage
-python
+python file_batch_name.py D:\batch\fancy
 '''
