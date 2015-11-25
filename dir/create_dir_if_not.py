@@ -16,5 +16,4 @@ except Exception as e:
 '''
 @usage
 python file_batch_name.py D:\batch\fancy
-demo
 '''
