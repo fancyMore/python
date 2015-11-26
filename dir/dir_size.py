@@ -3,18 +3,18 @@
 import os
 import sys
 
-directory=sys.argv[1]
+directory = sys.argv[1]
 dir_size = 0
 for (path, dirs, files) in os.walk(directory):
-  print dirs
-  for file in files:
-    print file
-    filename = os.path.join(path, file)
-    dir_size += os.path.getsize(filename)
+    print dirs
+    for file in files:
+        print file
+        filename = os.path.join(path, file)
+        dir_size += os.path.getsize(filename)
 print "Folder Size in Bytes = %0.2f Bytes" % (dir_size)
-print "Folder Size in Kilobytes = %0.2f KB" % (dir_size/1024.0)
-print "Folder Size in Megabytes = %0.2f MB" % (dir_size/1024/1024.0)
-print "Folder Size in Gigabytes = %0.2f GB" % (dir_size/1024/1024/1024.0)
+print "Folder Size in Kilobytes = %0.2f KB" % (dir_size / 1024.0)
+print "Folder Size in Megabytes = %0.2f MB" % (dir_size / 1024 / 1024.0)
+print "Folder Size in Gigabytes = %0.2f GB" % (dir_size / 1024 / 1024 / 1024.0)
 # -*Application End*-
 
 '''
