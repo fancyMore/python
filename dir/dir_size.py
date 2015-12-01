@@ -28,4 +28,5 @@ filenames是一个list，包含了非目录文件的名字.这些名字不包含
 '''
 @usage
 python dir_size.py D:\batch\fancy
+test
 '''
