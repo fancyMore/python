@@ -94,5 +94,6 @@ backup_file(tmp)
 #find_file(dest,'diy.js','mall\js\shopFitting\diy.js')
 print 1
 print 2
+print 5
 
 # -*Application End*-
