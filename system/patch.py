@@ -92,10 +92,5 @@ def backup_file(filelist):
 backup_file(tmp)
 #print(tmp)
 #find_file(dest,'diy.js','mall\js\shopFitting\diy.js')
-print 1
-
-print 11
-print 111
-print 333
 
 # -*Application End*-
