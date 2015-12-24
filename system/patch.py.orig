@@ -96,6 +96,10 @@ print 1
 
 print 11
 print 111
+<<<<<<< HEAD
+print 222
 print 333
+=======
+>>>>>>> parent of a6c5442... 222
 
 # -*Application End*-
